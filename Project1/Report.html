@@ -593,14 +593,19 @@ pre.editor-colors .fold-marker:after {
 <td>number of time steps between backward passes on local q-network</td>
 </tr>
 <tr>
-<td>INITIAL EPSILON</td>
+<td>eps</td>
 <td>0.99</td>
-<td>initial value of ε, the probability of random action by the agent</td>
+<td>starting value for ε, the probability of randomly selecting an action</td>
 </tr>
 <tr>
-<td>DECAY RATE</td>
-<td>0.005</td>
-<td>rate at which epsilon decreases each episode</td>
+<td>decay</td>
+<td>0.015</td>
+<td>the rate of decay in epsilon</td>
+</tr>
+<tr>
+<td>min_eps</td>
+<td>0.01</td>
+<td>minimum value of epsilon</td>
 </tr>
 </tbody>
 </table>

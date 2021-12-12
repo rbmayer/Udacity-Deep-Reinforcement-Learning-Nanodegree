@@ -41,8 +41,9 @@ The solution utilizes the following hyperparameters:
 |TAU|.001|weight for soft update of target q-network parameters|  
 |LR|.0005|learning rate for backprop|  
 |UPDATE_EVERY|4|number of time steps between backward passes on local q-network|  
-|INITIAL EPSILON|0.99|initial value of ε, the probability of random action by the agent|
-|DECAY RATE|0.005|rate at which epsilon decreases each episode|
+|eps|0.99|starting value for ε, the probability of randomly selecting an action|
+|decay|0.015|the rate of decay in epsilon|
+|min_eps|0.01|minimum value of epsilon|
 
 ## Ideas for Future Work
 
