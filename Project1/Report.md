@@ -4,7 +4,7 @@ This project implements a deep Q-network (DQN) using the approach described in t
 
 ## Solution
 
-This implementation solved the environment in 372 episodes. The suggested benchmark for completing the exercise was to solve the environment in fewer than 1800 episodes.  
+This implementation solved the environment in 232 episodes. The suggested benchmark for completing the exercise was to solve the environment in fewer than 1800 episodes.  
 
 The key to reducing the number of training episodes was to add a decaying epsilon-greedy policy to the basic DQN solution provided in earlier assignments. This ensured that early episodes focused on exploring the state space while transitioning fairly quickly (within a couple hundred episodes) to a policy based on experience.
 
