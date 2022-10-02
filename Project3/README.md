@@ -31,7 +31,7 @@ Following are instructions to set up and run the code in a Linux environment.
 4. Manually install torch version 0.4.1  
     $ conda install torch==0.4.1
 5. Download the Unity environment provided by Udacity. For example:  
-    $ wget https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Linux.zip
+    $ wget https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux_NoVis.zip
 6. Unzip the Tennis_Linux archive into a folder one level up in the hierarchy from where run_model.py is located.
 7. Run the python script "run_model.py" from the command line to train the model.  
     $ python run_model.py
